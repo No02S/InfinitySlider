@@ -1,8 +1,12 @@
 # InfinitySlider
-install with Webpack:
+### install with Webpack:
+```JS
   import infinitySlider from "./InfinitySlider.min";
+```
 
-settings:
+### settings:
+
+```JS
 {
     slider: "slider",    //Slider
     wrapper: "wrapper", //bar with items
@@ -11,13 +15,16 @@ settings:
     activeSlides: 3, //Slides to show
     *delayMs: 'value in ms' //time to swap items
 }
-
-constructor:
+```
+### constructor:
+```HTML
 <Slider>
   <prev>
   <next>
     <wrapper>
       <some item>
+      <some item>
         ...
     </wrapper>
 </Slider>
+```
